@@ -11,44 +11,57 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-    background-color: rgb(78, 1, 50);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-} 
-.container{
-  height: 300px;
-  width: 900px;
-  background-color: beige;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      align-items: center;
+      background-color: rgb(78, 1, 50);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
-.attribution {
- font-size: 11px; text-align: center; 
-}
+    } 
+    .container{
+      padding: 15px;
+      height: 500px;
+      width: 440px;
+      background-color: beige;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      text-align: center;
+      border-radius: 10px;
+    }
+    #imgcontainer{
+      display: flex;
+      flex-direction: column;
 
-.attribution a {
- color: hsl(228, 45%, 44%);
-  }
-  </style>
+    }
+    img{
+      border-radius: 10px;
+    }
+    .attribution {
+     font-size: 11px; text-align: center; 
+   }
+
+   .attribution a {
+     color: hsl(228, 45%, 44%);
+   }
+ </style>
 </head>
 <body>
-<div class="container">
-  <div class="para">
-    Improve your front-end skills by building projects
+  <div class="container">
+    <div id="imgcontainer">
+      <img src="qr-code-component-main\images\image-qr-code.png"
+    </div>
+    <div class="para">
+      Improve your front-end skills by building projects
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</div>
 </body>
 </html>
